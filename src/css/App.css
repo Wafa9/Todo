@@ -1,0 +1,41 @@
+body {
+  background-color: #3c424a;
+  color: #889097;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  color: #d4c8d2;
+  text-align: center;
+}
+
+.list {
+  margin-top: 20px;
+  width: 70%;
+}
+.theme-toggle {
+  background: transparent;
+  border: 2px solid #f1c40f; 
+  border-radius: 5px; 
+  color: #f1c40f; 
+  font-size: 24px;
+  margin-left: auto; 
+  padding: 10px 20px;
+  margin-top: 10px; ;
+  transition: all 0.3s ease; 
+  align-items: center;
+}
+
+.theme-toggle:hover {
+  background: #f1c40f; 
+  color: #fff; 
+}

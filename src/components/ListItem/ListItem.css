@@ -1,0 +1,29 @@
+.list-item {
+    display: flex; 
+    align-items: flex-start;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .icon {
+    color: #3f51b5; 
+    margin-right: 8px; 
+    transform: rotate(45deg);
+    color: #e55c8a;
+  }
+
+  .delete-button {
+    margin-left: auto; 
+    background: none;
+    color: #b19fa9;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* .date { */
+    /* display: block; */
+/*      */
+  /* } */
+  
